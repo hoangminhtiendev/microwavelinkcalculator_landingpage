@@ -21,3 +21,10 @@ The screenshot carousel uses image URLs from the public Google Play image CDN, r
 - Confirm that all feature descriptions match the current Android and iOS releases.
 - Consider adding a dedicated privacy-policy page and support contact details.
 - Test the page on a phone and desktop after deployment.
+
+
+## App Store screenshots
+
+The screenshot gallery uses the supplied iOS App Store screenshots, stored locally in
+`assets/screenshots/` as optimized WebP files. No Google Play screenshot CDN links are
+needed for the gallery. The gallery preserves the screenshots' portrait aspect ratio.
